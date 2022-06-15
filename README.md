@@ -1,3 +1,3 @@
 # PaylikeLuhn
 
-A description of this package.
+Luhn implementation for Swift
