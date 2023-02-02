@@ -1,5 +1,7 @@
 # PaylikeLuhn
 
+[![Swift](https://github.com/kocsislaci/swift-luhn/actions/workflows/swift.yml/badge.svg?branch=main)](https://github.com/kocsislaci/swift-luhn/actions/workflows/swift.yml)
+
 Calculate/verify check digit (luhn) of credit cards
 
 This library is a clone of the original javascript [implementation from Paylike](https://github.com/paylike/luhn).
