@@ -1,5 +1,5 @@
-import XCTest
 @testable import PaylikeLuhn
+import XCTest
 
 final class PaylikeLuhnTests: XCTestCase {
     let pans = [
@@ -24,15 +24,15 @@ final class PaylikeLuhnTests: XCTestCase {
         "4222222222222",
         "5019717010103742",
         "6331101999990016",
-    ];
-    
+    ]
+
     let invalid: [String] = [
         "76009244561",
         "4571736004738485",
-    ];
+    ]
     func testExample() throws {
         pans.forEach { pan in
-            XCTAssertEqual(PaylikeLuhn.isValid(cardNumber: pan), true, pan);
+            XCTAssertEqual(PaylikeLuhn.isValid(cardNumber: pan), true, pan)
             XCTAssertEqual(PaylikeLuhn.calculateCheckDigit(cardNumber: pan),
                            String(pan.last!))
         }
