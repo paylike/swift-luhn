@@ -1,6 +1,6 @@
 # PaylikeLuhn
 
-[![Swift](https://github.com/kocsislaci/swift-luhn/actions/workflows/swift.yml/badge.svg?branch=main)](https://github.com/kocsislaci/swift-luhn/actions/workflows/swift.yml)
+[![build_tests](/../../actions/workflows/swift.yml/badge.svg?branch=main)](/../../actions/workflows/swift.yml)
 
 Calculate/verify check digit (luhn) of credit cards
 
