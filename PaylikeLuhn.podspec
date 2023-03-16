@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name             = 'PaylikeLuhn'
   s.swift_version    = '4.0'
   s.ios.deployment_target = '9.0'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Luhn implementation based on the JS version for Paylike libraries'
   s.description      = <<-DESC
 This packages is a clone of the JS version and responsible for providing a handy
